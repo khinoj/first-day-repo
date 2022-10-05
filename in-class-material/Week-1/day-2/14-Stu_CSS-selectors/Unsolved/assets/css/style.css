@@ -1,0 +1,35 @@
+/* universal selector because its a star */
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+/* element selector because its a body tag */
+body {
+  background-color: lemonchiffon;
+}
+
+header,
+footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  color: #f0ead6;
+  background-color: #191970;
+}
+
+figure {
+  width: 200px;
+  background-color: #f0ead6;
+}
+
+/* class selector because of the period */
+.highlighted-text {
+  font-weight: bolder;
+}
+
+/* ID selector because of the hashtag */
+#contact-section {
+  background-color: #f0ead6;
+}
+
+
