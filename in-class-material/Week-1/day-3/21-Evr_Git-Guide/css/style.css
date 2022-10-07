@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: darkolivegreen;
+    text-align: right;
+}
+
+.new_website{
+    color: black;
+    text-align: center;
+}
+
+.coming_soon{
+    color: white;
+    background-color: grey;
+    padding: 5px;
+    margin: 10px;
+    border: 5px solid green;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+footer{
+    text-align: center;
+    border: 10px;
+}
