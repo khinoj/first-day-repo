@@ -3,18 +3,21 @@ var planets = ["Earth", "Saturn", "Mars", "Jupiter", "Uranus", "Venus"];
 var star = "polaris";
 
 // WRITE YOUR CODE BELOW
-constellations.splice(5,0, "Canis Major");
-console.log(constellations)
+
+constellations.splice(0,0, 'Canis Major');
+console.log(constellations);
 
 planets.pop();
 console.log(planets);
 
-
 var galaxy = constellations.concat(planets);
-console.log(galaxy);
+    console.log(galaxy);
 
 
-var water = ["Clear", "Dirty", "Fountain"];
-water[0] = "Best Water"
+planets.splice(5,0, 'Hoth');
+var stars = planets.concat(constellations)
+    console.log(stars);
 
-console.log(water)
+var starcaps = star.toUpperCase('polaris');
+    console.log(starcaps);
+    

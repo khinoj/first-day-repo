@@ -19,7 +19,7 @@ isEqual(10, 10);
 isEqual(10, "10");
 
 // TODO: Rewrite isEqual as a function expression called 'isEqualTakeTwo`
-function isEqualTakeTwo(x, y) {
+var isEqualTakeTwo = function (x, y) {
   if (x === y) {
     console.log('They are equal in type and value');
   } else if (x == y) {
@@ -32,5 +32,5 @@ function isEqualTakeTwo(x, y) {
 
 
 // TODO: Call the isEqualTakeTwo function so that it logs "They are not equal"
+isEqualTakeTwo(11, false)
 
-isEqualTakeTwo(11, 10);

@@ -17,22 +17,17 @@ var child = {
 // TODO: What will this log? 
 var investor = {  
   name: "Cash Saver",
-  topping: "sausage",
   investment: {
     initialInvestment: 5000,
     investmentGrowth: function() {
       console.log(this.initialInvestment * 1.15)
     }
-   },
-   pizza: function () {
-      console.log(this.topping + " Makes for a great pizza");
-   }
+   }   
 };
 
 // TODO: After commenting, check your results!
-// helloThis();
+helloThis();
 
 // TODO: After commenting, check your results!
 child.ageTenYears();
 investor.investment.investmentGrowth();
-investor.pizza();

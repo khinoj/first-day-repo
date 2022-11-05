@@ -1,16 +1,15 @@
 // WRITE YOUR CODE HERE
 
-var students = ["Kris", "Ryan", "John", "Matt"];
+var studentNames = ["Chris", "Kris", "Simba", "Scott"];
 
-console.log(students.length);
+console.log(studentNames.length);
+console.log(studentNames[0]);
+console.log(studentNames[1]);
+console.log(studentNames[2]);
+console.log(studentNames[3]);
 
-console.log("Welcome to the class " + students[0]);
-console.log("Welcome to the class " + students[1]);
-console.log("Welcome to the class " + students[2]);
-console.log("Welcome to the class " + students[3]);
+studentNames[0] = "Bob";
 
-students[0] = "Bob";
+console.log(studentNames);
 
-if(students[0] === "Bob") {
-    console.log(students[0] + " is in the class");
-}
+
