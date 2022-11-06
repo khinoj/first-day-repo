@@ -6,7 +6,7 @@
 
 body {
   font-family: sans-serif;
-  background-color: #ffffe0;
+  background-color: #FFFFE0
 }
 
 h1 {
@@ -34,10 +34,6 @@ h1 {
   line-height: 200px;
   font-size: 150px;
   color: whitesmoke;
-}
-
-.box[data-state="visible"] {
-  background-color: yellow;
 }
 
 @media (max-width: 740px) {
